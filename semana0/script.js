@@ -32,3 +32,19 @@ console.log("resultado multiplicação: ", mult);
 console.log("resultado divisão: ", divisao);
 console.log("resultado resto: ", resto);
 console.log("resultado: ", x);
+
+//funções
+function calcularResto(num1, num2) {
+  return num1 % num2;
+}
+console.log(calcularResto(50, 5));
+
+function somaTres(a, b, c) {
+  return a + b + c;
+}
+function divide(a, b) {
+  return a / b;
+}
+var result = 2;
+result *= somaTres(1, 5, 3);
+console.log(divide(result, 3));
