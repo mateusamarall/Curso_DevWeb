@@ -14,9 +14,29 @@ function main() {
     cachorro.fazerBarulho(),
     cachorro.metodoCachorro()
   );
-}
 
+  //tipos de variaveis
+  //👇const é tipo de variavel inateravel mas podemos uma mutação
+  const animal2 = { nome: "bimo" };
+  console.log(animal2);
+  animal2.nome = "jack";
+  console.log(animal2);
+
+  demonstraEscopo(20);
+  //retorna erro pois y não esta neste escopo console.log(y);
+}
+function demonstraEscopo(x) {
+  //let é uma variavel de escopo
+  let y = 5;
+  if (x > 10) {
+    console.log(x, y);
+  }
+}
 //CLASSE
+
+/*Toda classe tem o metodo constructor, toda classe pode extender de outra classe e pode passar o valor super 
+que vai estar chamando o constructor da classe pai
+*/
 
 class Animal {
   //definindo a classe
