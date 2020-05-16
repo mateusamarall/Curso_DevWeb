@@ -25,4 +25,18 @@ function main() {
     return item === 5;
   });
   console.log(find);
+
+  //ArrowFunction
+
+  const arrayArrow = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  const newArrayArrow = arrayArrow.map((item) => {
+    return item * 3;
+  });
+  console.log(newArrayArrow);
+  teste();
 }
+
+const teste = () => {
+  console.log("testando arrow function");
+};
