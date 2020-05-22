@@ -1,8 +1,7 @@
-h1 {
-  color: #8a2be2;
-  background-color: #fa8072;
-}
-h2 {
-  background-color: #000;
+.azul {
   color: #fff;
+  background-color: #1a99ee;
+}
+#meuheader {
+  font-size: 45px;
 }
