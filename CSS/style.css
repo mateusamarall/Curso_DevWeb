@@ -5,3 +5,8 @@
 #meuheader {
   font-size: 45px;
 }
+.logo {
+  width: 500px;
+  height: auto;
+  background: #000;
+}
