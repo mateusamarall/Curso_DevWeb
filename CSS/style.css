@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 .azul {
   color: #fff;
   background-color: #1a99ee;
@@ -5,8 +8,9 @@
 #meuheader {
   font-size: 45px;
 }
+
 .logo {
-  width: 500px;
-  height: auto;
+  width: 350px;
   background: #000;
+  margin: 20px;
 }
